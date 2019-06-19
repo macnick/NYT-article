@@ -1,6 +1,51 @@
+body {
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+  transition: ease 0.6s;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05;
+  line-height: 11px;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+}
+
 .nav {
   display: flex;
 }
 .nav div {
   background-color: blueviolet;
+}
+
+.navbar {
+  position: relative;
+  border-bottom: 1px solid #e2e2e2;
+  display: flex;
+  height: 34px;
+  /* background-color: aqua; */
+  justify-content: space-between;
+}
+.navbar > .left-links {
+  display: flex;
+  align-items: center;
+  font-size: 14.25px;
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+}
+.navbar .search {
+  padding: 0px 20px 0px 18px;
 }
