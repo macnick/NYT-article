@@ -34,10 +34,13 @@ section {
   background-color: blueviolet;
 }
 .navbar {
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
   border-bottom: 1px solid #e2e2e2;
   display: flex;
-  height: 42px;
+  height: 44px;
   justify-content: space-between;
   align-self: flex-end;
 }
@@ -60,12 +63,5 @@ section {
   margin-left: 60px;
 }
 .nav-btn {
-  margin-right: 16px;
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  align-items: center;
-  background: white;
+  margin: 5px 16px 0 0;
 }
