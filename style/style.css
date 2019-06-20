@@ -36,9 +36,37 @@ h1 {
   line-height: 2.5rem;
   margin-bottom: 20px;
 }
+figcaption {
+  font-size: 0.938rem;
+  line-height: 1.25rem;
+  color: #666;
+  width: 85%;
+}
+figcaption span {
+  display: inline-block;
+}
+.date-social {
+  display: flex;
+}
+.author {
+  font-size: 0.938rem;
+  font-weight: 700;
+  font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+}
+.ibn {
+  font-weight: 700;
+}
+.copyright {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: #888;
+}
 .pict,
 .shell {
   margin: 0px -210px;
+}
+.pict2 {
+  margin: 0px -50px;
 }
 .article-body {
   margin-top: 40px;
