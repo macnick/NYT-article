@@ -36,6 +36,10 @@ h1 {
   line-height: 2.5rem;
   margin-bottom: 20px;
 }
+.pict,
+.shell {
+  margin: 0px -210px;
+}
 .article-body {
   margin-top: 40px;
 }
