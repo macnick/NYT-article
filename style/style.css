@@ -22,6 +22,7 @@ button {
 }
 section {
   display: grid;
+  margin-top: 60px;
   grid-template-columns: 100px auto 150px;
   grid-template-rows: auto;
   background-color: #6288a5;
@@ -32,7 +33,6 @@ section {
 .nav div {
   background-color: blueviolet;
 }
-
 .navbar {
   position: relative;
   border-bottom: 1px solid #e2e2e2;
@@ -61,4 +61,11 @@ section {
 }
 .nav-btn {
   margin-right: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  align-items: center;
+  background: white;
 }
