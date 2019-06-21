@@ -45,9 +45,21 @@ figcaption {
 figcaption span {
   display: inline-block;
 }
-.date-social {
-  display: flex;
+
+.editor {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgb(226,226,226);
 }
+
+.story {
+  font-weight: 500;
+  padding-bottom: 0px; 
+  }
+
 .author {
   font-size: 0.938rem;
   font-weight: 700;
