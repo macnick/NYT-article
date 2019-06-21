@@ -47,8 +47,8 @@ figcaption span {
   display: inline-block;
 }
 .picks {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   justify-self: center;
   width: 0px;
 }
@@ -71,10 +71,12 @@ figcaption span {
   line-height: 17px;
   width: 212px;
 }
-.author {
+.author,
+.author a {
   font-size: 0.938rem;
   font-weight: 700;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+  color: black;
 }
 .ibn {
   font-weight: 700;
