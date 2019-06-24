@@ -46,6 +46,18 @@ figcaption {
 figcaption span {
   display: inline-block;
 }
+.date-social {
+  display: flex;
+}
+.fa {
+  width: 30px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+  padding-top: 7px;
+  background-color: #eeeeee;
+}
 .picks {
   display: flex;
   flex-direction: column;
@@ -71,8 +83,7 @@ figcaption span {
   line-height: 17px;
   width: 212px;
 }
-.author,
-.author a {
+.author {
   font-size: 0.938rem;
   font-weight: 700;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
