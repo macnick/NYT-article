@@ -25,7 +25,7 @@ section {
   margin: 60px 20px 0px 20px;
   grid-template-columns: auto 600px auto;
   grid-template-rows: auto auto auto;
-  grid-column-gap: 18px;
+  grid-column-gap: 28px;
   font-family: nyt-imperial, Georgia, "Times New Roman", Times, serif;
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -48,10 +48,15 @@ figcaption span {
 }
 .date-social {
   display: flex;
+  padding: 10px 0;
+  font-size: 0.875rem;
+}
+.date-social div:nth-child(2) {
+  margin-left: auto;
 }
 .fa {
-  width: 30px;
-  height: 25px;
+  width: 25px;
+  height: 20px;
   text-align: center;
   border-radius: 50%;
   margin: 0 10px 0 0;
@@ -63,10 +68,6 @@ figcaption span {
   flex-direction: column;
   justify-self: center;
   width: 0px;
-}
-.story img {
-  float: left;
-  padding: 0 8px 18px 10px;
 }
 .editor {
   font-size: 14px;
@@ -83,10 +84,17 @@ figcaption span {
   line-height: 17px;
   width: 212px;
 }
+.story img {
+  float: left;
+  padding: 0 8px 18px 10px;
+}
 .author {
   font-size: 0.938rem;
   font-weight: 700;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
+  color: black;
+}
+#dennis {
   color: black;
 }
 .ibn {
@@ -115,12 +123,6 @@ figcaption span {
   display: inline-block;
   max-width: 420px;
 }
-/* .nav {
-  display: flex;
-}
-.nav div {
-  background-color: blueviolet;
-} */
 .navbar {
   position: fixed;
   z-index: 1;
