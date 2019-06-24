@@ -63,9 +63,12 @@ figcaption span {
   padding-top: 7px;
   background-color: #eeeeee;
 }
-.picks {
+.picks,
+.signup {
   display: flex;
   flex-direction: column;
+  align-self: center;
+
   justify-self: center;
   width: 0px;
 }
