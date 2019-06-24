@@ -64,7 +64,7 @@ figcaption span {
   background-color: #eeeeee;
 }
 .picks,
-.signup {
+.sign {
   display: flex;
   flex-direction: column;
   align-self: center;
