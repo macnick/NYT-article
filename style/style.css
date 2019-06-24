@@ -23,7 +23,7 @@ button {
 section {
   display: grid;
   margin: 60px 20px 0px 20px;
-  grid-template-columns: auto 600px auto;
+  grid-template-columns: 1fr 600px 1fr;
   grid-template-rows: auto auto auto;
   grid-column-gap: 28px;
   font-family: nyt-imperial, Georgia, "Times New Roman", Times, serif;
@@ -36,6 +36,15 @@ h1 {
   font-size: 2.25rem;
   line-height: 2.5rem;
   margin-bottom: 20px;
+}
+h2 {
+  display: block;
+  font-size: 1.4em;
+  line-height: 1.6rem;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 figcaption {
   font-size: 0.938rem;
@@ -64,11 +73,10 @@ figcaption span {
   background-color: #eeeeee;
 }
 .picks,
-.signup {
+.sign {
   display: flex;
   flex-direction: column;
-  align-self: center;
-
+  /* align-self: center; */
   justify-self: center;
   width: 0px;
 }
@@ -81,7 +89,8 @@ figcaption span {
   padding: 0 0 12px 10px;
   border-bottom: 1px solid rgb(226, 226, 226);
 }
-.story {
+.story,
+.sign {
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
