@@ -59,10 +59,21 @@ figcaption {
 figcaption span {
   display: inline-block;
 }
+footer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+}
+.columns {
+  height: 100px;
+  width: 100%;
+  background-color: #999;
+}
 .lower {
   display: grid;
   grid-template-columns: 3fr 316px;
   grid-template-rows: auto;
+  grid-column-gap: 30px;
   margin: 20px 36px;
 }
 .lower-left {
@@ -217,6 +228,7 @@ figcaption span {
 .lowerr {
   border-top: 1px solid;
   padding: 20px 0;
+  margin-left: -10px;
 }
 #zenith {
   width: 273px;
