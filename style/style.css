@@ -30,16 +30,6 @@ section {
   font-size: 1.25rem;
   line-height: 1.875rem;
 }
-.lower {
-  display: grid;
-  grid-template-columns: 2.7fr 1fr;
-  grid-template-rows: auto;
-}
-.lower-left {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-}
 h1 {
   font-family: nyt-cheltenham, Georgia, "Times New Roman", Times, serif;
   font-style: italic;
@@ -64,6 +54,17 @@ figcaption {
 }
 figcaption span {
   display: inline-block;
+}
+.lower {
+  display: grid;
+  grid-template-columns: 3fr 316px;
+  grid-template-rows: auto;
+  margin: 20px 36px;
+}
+.lower-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
 }
 .date-social {
   display: flex;
@@ -179,7 +180,7 @@ figcaption span {
 }
 
 .downcomment {
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
   width: calc(100% - 40px);
