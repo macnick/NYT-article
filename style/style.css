@@ -46,6 +46,10 @@ h2 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 }
+h3 {
+  font-weight: bold;
+  line-height: 22px;
+}
 figcaption {
   font-size: 0.938rem;
   line-height: 1.25rem;
@@ -73,6 +77,9 @@ figcaption span {
 }
 .date-social div:nth-child(2) {
   margin-left: auto;
+}
+.date-social button {
+  width: 280px;
 }
 .fa {
   width: 25px;
@@ -157,7 +164,8 @@ figcaption span {
   justify-content: space-between;
   align-self: flex-end;
 }
-.navbar > .left-links {
+.navbar > .left-links,
+.left-links {
   display: flex;
   align-items: center;
   font-size: 14.25px;
@@ -186,14 +194,29 @@ figcaption span {
   max-width: 600px;
   color: #999;
 }
-
 .downcomment div:nth-child(1) {
   margin-left: auto;
 }
-
-.more img {
+.more {
   width: 273px;
+  height: 311px;
+}
+.more img {
   height: 182px;
+}
+.more figcaption {
+  font-size: 0.625rem;
+  text-align: right;
+}
+.more .time {
+  font-size: 0.825rem;
+  text-align: left;
+  color: #999;
+}
+.lowerl,
+.lowerr {
+  border-top: 1px solid;
+  padding: 20px 0;
 }
 #zenith {
   width: 273px;
