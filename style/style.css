@@ -208,6 +208,10 @@ footer {
 .downcomment div:nth-child(1) {
   margin-left: auto;
 }
+.downcomment a {
+  text-decoration: none;
+  color: #999;
+}
 .more {
   width: 273px;
   height: 311px;
@@ -229,6 +233,16 @@ footer {
   border-top: 1px solid;
   padding: 20px 0;
   margin-left: -10px;
+}
+.popular {
+  /* background-color: #6288a5; */
+  font-family: nyt-cheltenham, Georgia, "Times New Roman", Times, serif;
+  font-size: 1.125rem;
+  line-height: 1.4375rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
 }
 #zenith {
   width: 273px;
