@@ -178,14 +178,12 @@ figcaption span {
 .nav-btn {
   margin: 5px 16px 0 0;
 }
-
 .downcomment {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
   width: calc(100% - 40px);
   max-width: 600px;
-  margin: 0 auto 1em;
   color: #999;
 }
 .more img {
