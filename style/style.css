@@ -62,11 +62,17 @@ figcaption span {
 footer {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: 50px auto;
+  grid-template-rows: auto;
   margin: 0 36px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.columns {
+  font-size: 90%;
 }
 .foot {
   width: 100%;
+  height: 60px;
   margin: 0 36px;
   border-top: 2px double #ddd;
 }
