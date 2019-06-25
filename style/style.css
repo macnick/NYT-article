@@ -64,6 +64,16 @@ footer {
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto;
 }
+.summary-text {
+  display: flex;
+  width: 945px;
+}
+.story-heading {
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.25rem;
+  width: 600px;
+}
 .columns {
   height: 100px;
   width: 100%;
