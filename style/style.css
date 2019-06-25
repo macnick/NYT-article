@@ -184,9 +184,13 @@ figcaption span {
   line-height: 1rem;
   width: calc(100% - 40px);
   max-width: 600px;
-  margin: 0 auto 1em;
   color: #999;
 }
+
+.downcomment div:nth-child(1) {
+  margin-left: auto;
+}
+
 .more img {
   width: 273px;
   height: 182px;
