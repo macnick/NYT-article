@@ -263,7 +263,18 @@ footer {
   padding: 20px 0;
   border-top: 1px solid #ddd;
 }
+.sublinks {
+  font-size: smaller;
+}
 #zenith {
   width: 273px;
   height: 318px;
+}
+#last-col {
+  border-left: 1px solid #ddd;
+  padding-left: 10px;
+}
+#mobile {
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
 }
