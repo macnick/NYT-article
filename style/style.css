@@ -76,6 +76,12 @@ footer {
   margin: 0 36px;
   border-top: 2px double #ddd;
 }
+
+.footer-links{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
 .foot .svg {
   margin-left: 0;
 }
