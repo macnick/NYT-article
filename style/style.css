@@ -50,7 +50,7 @@ figcaption {
   font-size: 0.938rem;
   line-height: 1.25rem;
   color: #666;
-  width: 85%;
+  width: 100%;
 }
 figcaption span {
   display: inline-block;
@@ -179,7 +179,8 @@ a:hover {
   color: #888;
 }
 .pict,
-.shell {
+.shell,
+#guth {
   margin: 0px -210px;
 }
 .pict2 {
