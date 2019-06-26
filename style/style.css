@@ -79,7 +79,8 @@ footer {
 .foot .svg {
   margin-left: 0;
 }
-.summary-text {
+.summary-text,
+.story-footer {
   display: flex;
   width: 945px;
 }
