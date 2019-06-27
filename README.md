@@ -22,4 +22,4 @@ Used:
 
 ## The Website
 
-Follow the link to acess to the Website: file:///C:/Users/Yuri%20Vladimiro/Documents/videoaula/NYT-article/index.html#
+Follow the link to acess to the Website: https://macnick.github.io/NYT-article/
