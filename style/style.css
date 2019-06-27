@@ -85,10 +85,17 @@ a:hover {
   margin: 20px 36px;
   justify-content: center;
   font-family: nyt-franklin, Arial, Helvetica, sans-serif;
-  font-size: 0.65em;
+  font-size: 0.75em;
 }
-.footer-links div a {
-  padding: 0 12px;
+.footer-ul {
+  display: inline-block;
+}
+.footer-li {
+  display: inline-block;
+  line-height: 20px;
+  padding: 0 10px;
+}
+.footer-li a {
   color: #999;
 }
 .summary-text,
