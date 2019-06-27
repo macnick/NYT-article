@@ -299,3 +299,33 @@ a:hover {
 #g-ai0 {
   width: 100%;
 }
+
+.g-sc {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+#g-inflation-945-0 {
+  position: relative;
+  overflow: hidden;
+  width: 945px;
+}
+.g-aiAbs {
+  position: absolute;
+}
+.g-aiImg {
+  display: block;
+}
+#g-inflation-945-0 p {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0;
+}
+#g-inflation-945-0 .g-aiPstyle0 {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+}
