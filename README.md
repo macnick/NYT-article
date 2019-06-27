@@ -2,13 +2,13 @@
 
 ## Microverse 3rd project
 
-## Youtube Homepage Clone Website
+## NYT Article Clone Website
 
-This repository contains a clone system of Youtube Homepage Website. Youtube clone website created using image and video embedding for the main video and the thumbnails at the sidebar.
+The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories. That creates all kinds of interesting position questions.So in This repository contains a copy of the New York Times article.
 
 Used:
  * CSS FlexBox
- * HTML
+ * HTML file
  * Grid
  
 ## Authors
@@ -18,8 +18,8 @@ Used:
 
 ## Screenshot
 
-![screenshot](img/Screenshot.jpg)
+![screenshot](img/screenshot.jpg) 
 
 ## The Website
 
-Follow the link to acess to the Website: https://dannyclever.github.io/embedding-images-and-video/
+Follow the link to acess to the Website: file:///C:/Users/Yuri%20Vladimiro/Documents/videoaula/NYT-article/index.html#
