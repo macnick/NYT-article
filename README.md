@@ -8,7 +8,7 @@ The New York Times has been a leader in experimenting with the inclusion of mult
 
 Used:
  * CSS FlexBox
- * HTML file
+ * HTML5
  * Grid
  
 ## Authors
