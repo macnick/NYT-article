@@ -1,4 +1,4 @@
-# NYT-article
+# Building with Backgrounds and Gradients
 
 ## Microverse 3rd project
 
